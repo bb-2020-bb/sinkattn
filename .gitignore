@@ -1,0 +1,44 @@
+# Editor / OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+*.egg-info/
+.cache/
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Packaging artifacts
+build/
+dist/
+
+# Local model assets and generated SinkAttention outputs
+outputs/
+results/
+wanx/outputs/
+zimg/outputs/
+
+# Generated masks, profiles, media, and tensors
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.json
+*.mp4
+*.mov
+*.mkv
+*.gif
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.npy
+*.npz
